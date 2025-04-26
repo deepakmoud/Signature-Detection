@@ -17,7 +17,7 @@ from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input
 import scipy
 from scipy import stats
-st.set_option('deprecation.showfileUploaderEncoding', False)
+
 
 from keras.models import load_model
 modeln = load_model('name.h5')
@@ -33,7 +33,7 @@ html_temp = """
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima University  </p></center> 
-   <center><p style="font-size:30px;color:white;margin-top:10px;">Objective 5: Signature Detection  from Document </p></center> 
+   <center><p style="font-size:30px;color:white;margin-top:10px;"> Signature Detection  from Document </p></center> 
    </div>
    </div>
    </div>
