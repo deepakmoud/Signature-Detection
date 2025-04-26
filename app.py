@@ -90,8 +90,8 @@ else:
   resized = cv2.resize(ROI, (224, 224))
 
 
-  st.image(image,caption='Uploaded Cheque', use_column_width=True)
-  st.image(ROI,caption='Extracted Signature', use_column_width=True)
+  st.image(image,caption='Uploaded Cheque', use_container_width=True)
+  st.image(ROI,caption='Extracted Signature', use_container_width=True)
     
 if st.button("Reveal Name"):
   resultn=import_and_predict_n(resized)
